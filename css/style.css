@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+.row1{
+	margin:50px auto;
+}
+body{
+  background-image: url('google logo.jpg');
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+.column1{
+  float: left;
+  width: 20%;
+  height: 620px;
+  padding: 10px;
+  margin-left: 75px;
+  margin-top:-10px;
+
+  /*emoved. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ContestBtn {
+  border: none;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  width: 100%;
+  border-radius: 10px;
+}
+.ContestBtn:hover{
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #449DD1; 
+  border-radius: 18px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #449DD1; 
+  border-radius: 18px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  border-radius: 18px;
+}
+/* add appropriate colors to fb, twitter and google buttons */
+
+
+/* first sample test----------*/
+.cardCss{
+	margin:12px 12px;
+  box-shadow: 0 4px 8px 0 #0E0E52;
+  transition: 0.3s;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.cardCss:hover {
+  box-shadow: 0 8px 16px 0 #0E0E52;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.containerCss {
+  padding: 0px 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
