@@ -20,7 +20,7 @@ if($end_int>=$curr_int){
   ?>
 <div class="col-sm" id="hackereath">
 	<div class="cardCss text-white" style="background-color: #2B3455;">
-  <img  src="logos/HackerEarth logo.jpg" alt="Avatar" style="height:100px;width:300px;">
+  <img  src="logos/hackerEarth logo.jpg" alt="Avatar" style="height:100px;width:300px;">
   <div class="containerCss">
     <p class="h6 text-center" style="border-bottom: 1px solid red;"><strong><?php echo $key->event; ?></strong></p>
     <center><a  style="text-align: center;word-wrap:break-word;color:white;" href=<?php echo $key->href; ?>><?php echo $key->href ?></a></center>
